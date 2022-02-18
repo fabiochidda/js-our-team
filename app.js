@@ -29,4 +29,11 @@ const team = [
       role: 'Graphic Designer',
       image: 'barbara-ramos-graphic-designer.jpg',
     },
-  ];
+];
+
+console.log(team);
+
+const teamBox = document.querySelector(".team-container");
+
+console.log(teamContainer);
+
