@@ -55,7 +55,7 @@ for (i=0; i < team.length; i++) {
   </div>
 
   `
-  console.log(teamCard)
+  console.log(teamCard);
 
   teamBox.innerHTML +=  teamCard;
     
