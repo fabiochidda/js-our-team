@@ -35,5 +35,26 @@ console.log(team);
 
 const teamBox = document.querySelector(".team-container");
 
-console.log(teamContainer);
+console.log(teamBox);
+
+for (i=0; i < team.length; i++) {
+
+    const teamCard = teamBox.innerHTML += 
+    `
+    <div class="team-card">
+        <div class="card-image">
+            <img
+                src="img/wayne-barnett-founder-ceo.jpg"
+                alt="Wayne Barnett"
+            />
+        </div>
+        <div class="card-text">
+            <h3>Wayne Barnett</h3>
+            <p>Founder & CEO</p>
+        </div>
+    </div>
+
+    `
+    
+}
 
