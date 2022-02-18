@@ -39,22 +39,25 @@ console.log(teamBox);
 
 for (i=0; i < team.length; i++) {
 
-    const teamCard = teamBox.innerHTML += 
-    `
-    <div class="team-card">
-        <div class="card-image">
-            <img
-                src="img/${team[i].image}"
-                alt="${team[i].name}"
-            />
-        </div>
-        <div class="card-text">
-            <h3>${team[i].name}</h3>
-            <p>${team[i].role}</p>
-        </div>
-    </div>
+  const teamCard = 
+  `
+  <div class="team-card">
+      <div class="card-image">
+          <img
+              src="img/${team[i].image}"
+              alt="${team[i].name}"
+          />
+      </div>
+      <div class="card-text">
+          <h3>${team[i].name}</h3>
+          <p>${team[i].role}</p>
+      </div>
+  </div>
 
-    `
+  `
+  console.log(teamCard)
+
+  teamBox.innerHTML +=  teamCard;
     
 }
 
